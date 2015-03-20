@@ -1,5 +1,5 @@
 // PURPOSE: Quickly toggle html elements on and off of a webpage, this simplifies the page, 
-// as well as allows for turning off css and scripts
+// for instance clicking <link> will often toggle off css and scripts
 
 // ==UserScript==
 // @name        jQueryToggleTags
