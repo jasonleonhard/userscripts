@@ -8,10 +8,6 @@
 
 // if you use remove instead of toggle it will change the source code also!
 // if you use toogle instead of remove you can turn it back on and off!
-
-//other possible css stylings: 
-  //position:absolute;
-  //top:0px;right:0px;
  
 //Avoid conflicts
 this.$ = this.jQuery = jQuery.noConflict(true);
@@ -75,7 +71,6 @@ document.body.appendChild(input);
 function _span() {
     $( "span" ).toggle();
 }
-
 
 
 
@@ -209,7 +204,6 @@ function _meta() {
 }
 
 
-
 // toggles <ul> 
 var input=document.createElement("input");
 input.type="button";
@@ -285,7 +279,6 @@ function _span() {
     $( "span" ).toggle();
 }
 
-
 // toggles <style> 
 var input=document.createElement("input");
 input.type="button";
@@ -309,7 +302,6 @@ document.body.appendChild(input);
 function _figure() {
     $( "figure" ).remove();
 }
-
 
 // removes <link> // often removes css
 var input=document.createElement("input");
@@ -359,7 +351,6 @@ function _h3() {
     $( "h3" ).remove();
 }
 
-
 // removes <h4> 
 var input=document.createElement("input");
 input.type="button";
@@ -372,7 +363,6 @@ function _h4() {
     $( "h4" ).remove();
 }
 
-
 // removes <h5> 
 var input=document.createElement("input");
 input.type="button";
@@ -384,7 +374,6 @@ document.body.appendChild(input);
 function _h5() {
     $( "h5" ).remove();
 }
-
 
 // removes <h6> 
 var input=document.createElement("input");
@@ -409,7 +398,6 @@ document.body.appendChild(input);
 function _code() {
     $( "code" ).remove();
 }
-
 
 // removes <iframe> 
 var input=document.createElement("input");
