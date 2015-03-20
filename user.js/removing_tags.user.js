@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name        jQueryToggleTags
-// @namespace   http://hayageek.com
 // @include     *
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @version     1
