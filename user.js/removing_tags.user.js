@@ -245,16 +245,16 @@ function _frame() {
     $( "frame" ).toggle();
 }
 
-// toggles <link> 
+// toggles <canvas> 
 var input=document.createElement("input");
 input.type="button";
-input.value="<link>";
-input.onclick = _link;
+input.value="<canvas>";
+input.onclick = _canvas;
 input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:285px;right:0px;color:blue");
 document.body.appendChild(input); 
  
-function _link() {
-    $( "link" ).toggle();
+function _canvas() {
+    $( "canvas" ).toggle();
 }
 
 // toggles <b> for bold
@@ -314,10 +314,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:3
 document.body.appendChild(input); 
  
 function _link() {
-    $( "link" ).remove();
+    $( "link" ).toggle();
 }
 
-// removes <h1> 
+// toggles <h1> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<h1>";
@@ -326,10 +326,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:3
 document.body.appendChild(input); 
  
 function _h1() {
-    $( "h1" ).remove();
+    $( "h1" ).toggle();
 }
 
-// removes <h2> 
+// toggles <h2> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<h2>";
@@ -338,10 +338,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:3
 document.body.appendChild(input); 
  
 function _h2() {
-    $( "h2" ).remove();
+    $( "h2" ).toggle();
 }
 
-// removes <h3> 
+// toggles <h3> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<h3>";
@@ -350,10 +350,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:4
 document.body.appendChild(input); 
  
 function _h3() {
-    $( "h3" ).remove();
+    $( "h3" ).toggle();
 }
 
-// removes <h4> 
+// toggles <h4> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<h4>";
@@ -362,10 +362,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:4
 document.body.appendChild(input); 
  
 function _h4() {
-    $( "h4" ).remove();
+    $( "h4" ).toggle();
 }
 
-// removes <h5> 
+// toggles <h5> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<h5>";
@@ -374,10 +374,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:4
 document.body.appendChild(input); 
  
 function _h5() {
-    $( "h5" ).remove();
+    $( "h5" ).toggle();
 }
 
-// removes <h6> 
+// toggles <h6> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<h6>";
@@ -386,10 +386,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:4
 document.body.appendChild(input); 
  
 function _h6() {
-    $( "h6" ).remove();
+    $( "h6" ).toggle();
 }
 
-// removes <code> 
+// toggles <code> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<code>";
@@ -398,10 +398,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:4
 document.body.appendChild(input); 
  
 function _code() {
-    $( "code" ).remove();
+    $( "code" ).toggle();
 }
 
-// removes <iframe> 
+// toggles <iframe> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<iframe>";
@@ -410,10 +410,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:4
 document.body.appendChild(input); 
  
 function _iframe() {
-    $( "iframe" ).remove();
+    $( "iframe" ).toggle();
 }
 
-// removes <menu> 
+// toggles <menu> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<menu>";
@@ -422,10 +422,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:4
 document.body.appendChild(input); 
  
 function _menu() {
-    $( "menu" ).remove();
+    $( "menu" ).toggle();
 }
 
-// removes <nav> 
+// toggles <nav> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<nav>";
@@ -434,10 +434,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:5
 document.body.appendChild(input); 
  
 function _nav() {
-    $( "nav" ).remove();
+    $( "nav" ).toggle();
 }
 
-// removes <object> 
+// toggles <object> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<object>";
@@ -446,10 +446,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:5
 document.body.appendChild(input); 
  
 function _object() {
-    $( "object" ).remove();
+    $( "object" ).toggle();
 }
 
-// removes <source> 
+// toggles <source> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<source>";
@@ -458,10 +458,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:5
 document.body.appendChild(input); 
  
 function _source() {
-    $( "source" ).remove();
+    $( "source" ).toggle();
 }
 
-// removes <table> 
+// toggles <table> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<table>";
@@ -470,10 +470,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:5
 document.body.appendChild(input); 
  
 function _table() {
-    $( "table" ).remove();
+    $( "table" ).toggle();
 }
 
-// removes <a> 
+// toggles <a> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<a>";
@@ -482,10 +482,10 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:5
 document.body.appendChild(input); 
  
 function _a() {
-    $( "a" ).remove();
+    $( "a" ).toggle();
 }
 
-// removes <html> 
+// toggles <html> 
 var input=document.createElement("input");
 input.type="button";
 input.value="<html>";
@@ -494,6 +494,6 @@ input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:5
 document.body.appendChild(input); 
  
 function _html() {
-    $( "html" ).remove();
+    $( "html" ).toggle();
 }
 
