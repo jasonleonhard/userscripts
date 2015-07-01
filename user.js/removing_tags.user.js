@@ -497,3 +497,34 @@ function _html() {
     $( "html" ).toggle();
 }
 
+////////////////////////////////
+
+// sets <p> background to yellow //$("p").css("background-color", "yellow");
+var input=document.createElement("input");
+input.type="button";
+input.value="<p> yellow";
+input.onclick = _p_y;
+input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:585px;right:0px;color:blue;background-color:yellow");
+document.body.appendChild(input); 
+ 
+function _p_y() {
+    $("p").css("background-color", "yellow");
+}
+
+// checks <p> background to yellow //$("p").css("background-color", "yellow");
+var input=document.createElement("input");
+input.type="button";
+input.value="<p> check";
+input.onclick = _p_c;
+input.setAttribute("style", "font-size:11px;z-index:3000;position:absolute;top:600px;right:0px;color:orange");
+document.body.appendChild(input); 
+ 
+function _p_c() {
+    $("p").css("background-color");
+}
+
+
+
+
+
+
